@@ -5,7 +5,7 @@ body{
 
 .nav-bar{
     overflow:hidden;
-    position: fixed;
+    position: sticky;
     top: 0;
     z-index: 1000;
     width: 100%;
@@ -35,6 +35,7 @@ a {
     background-color: #F0B4FF;
     height: 60px;
     border: 2px solid;
+    width:100%;
 
 }
 
@@ -71,11 +72,20 @@ a {
     width:100%;
     background-color: #E9E5F5;
     font-family: 'Trebuchet MS', sans-serif;
-
+    padding-bottom: 500px;
+    padding-top: 20px;
 }
 
 .abtme{
     padding-top: -10px;
+    
+}
+
+#abtme-par{
+    margin-top:50px;
+    border: 2px solid;
+    width: 885px;
+    padding-top: -100px;
 }
 
 #aboutme-title{
@@ -83,5 +93,16 @@ a {
     padding:20px;
     background-color: #F0B4FF;
     width: 150px;
+    margin-bottom: 20px;
 }
+
+#abbypic{
+    width: 400px;
+    float: right;
+    border: 2px solid;
+    margin-left: 100px;
+    margin-right:20px;
+    
+}
+
 
