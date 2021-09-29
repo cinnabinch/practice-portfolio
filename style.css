@@ -1,0 +1,87 @@
+body{
+    background-color: #B4F6FF;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.nav-bar{
+    overflow:hidden;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    margin-right: 20px;
+}
+
+.main-nav{
+    float: right;
+    display: block;
+    text-transform: uppercase; 
+    padding-right: 20px;
+    margin-top: 20px;  
+    word-spacing: 15px;
+    z-index: 1000;
+    font-weight: bold;
+    color:black;
+    
+}
+
+a {
+    text-decoration: none;
+    color:black;
+}
+
+
+.nav-background{
+    background-color: #F0B4FF;
+    height: 60px;
+    border: 2px solid;
+
+}
+
+#logo {
+    width: 100px;
+}
+
+#hero-img{
+    width: 100%;
+    border: 2px solid;
+}
+
+.img-container{
+    position: relative;
+}
+
+.text-block{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: white;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid;
+    font-size: 30px;
+    opacity: 0.6;
+}
+
+.about-me{
+    margin-top: 20px;
+    border: 2px solid;
+    padding-left: 20px;
+    width:100%;
+    margin-right: 20px;
+    background-color: #E9E5F5;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.abtme{
+    padding-top: -10px;
+}
+
+#aboutme-title{
+    border: 2px solid;
+    padding:20px;
+    background-color: #F0B4FF;
+    width: 150px;
+}
+
