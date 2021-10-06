@@ -1,3 +1,10 @@
+/* Website colors: 
+#E9E5F5 - gray 
+#F0B4FF - light purp
+#ea99fd; - purp
+#B4F6FF - blue
+ */
+
 body{
     background-color: #B4F6FF;
     font-family: 'Trebuchet MS', sans-serif;
@@ -32,27 +39,61 @@ body{
     background-color: #ea99fd;
     padding: 10px;
     border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+#hob {
+    transition: 0.2s;
 }
 
 #fut:hover {
     background-color: #ea99fd;
     padding: 10px;
     border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
 }
+
+#fut {
+    transition: 0.2s;
+}
+
 #exp:hover {
     background-color: #ea99fd;
     padding: 10px;
     border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
 }
+
+#exp {
+    transition: 0.2s;
+}
+
 #proj:hover {
     background-color: #ea99fd;
     padding: 10px;
     border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
 }
+#proj {
+    transition: 0.2s;
+}
+
+#con {
+    transition: 0.2s;
+}
+
+
 #con:hover {
     background-color: #ea99fd;
     padding: 10px;
     border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold; 
 }
 
 a {
@@ -120,10 +161,11 @@ a {
 
 #abtme-par{
     margin-top:40px;
-    border: 2px solid;
     width: 60%;
     padding-top: -100px;
     text-align: left;
+    display: inline;
+    overflow: hidden;
 }
 
 #aboutme-title{
@@ -141,6 +183,7 @@ a {
     border: 2px solid;
     margin-left: 100px;
     margin-right:35px;
+    box-shadow: 5px 5px 20px rgb(0 0 0 / 60%)
     
 }
 
@@ -159,6 +202,7 @@ a {
     height: 50px;
     width: 100%;
     text-align: center;
+    padding-bottom:10px;
 }
 
 
