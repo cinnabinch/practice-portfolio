@@ -121,8 +121,9 @@ a {
 #abtme-par{
     margin-top:40px;
     border: 2px solid;
-    width: 830px;
+    width: 60%;
     padding-top: -100px;
+    text-align: left;
 }
 
 #aboutme-title{
@@ -135,7 +136,7 @@ a {
 }
 
 #abbypic{
-    width: 440px;
+    width: 30%;
     float: right;
     border: 2px solid;
     margin-left: 100px;
@@ -151,13 +152,19 @@ a {
     padding-top: 20px;
     margin-top: 20px;
     height: 60px;
+    display: block;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    width: 100%;
+    text-align: center;
 }
 
 
 .linkedin { 
     font-size: 40px;
     color: white;
-    margin-left: 550px;
     margin-top: 100px;
     margin-bottom: -40px;
 }
