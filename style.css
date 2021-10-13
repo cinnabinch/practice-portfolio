@@ -12,17 +12,16 @@ body{
     overflow-x: hidden;
 }
 
-.nav-bar{
-    overflow:hidden;
+.nav-bar {
+    overflow: hidden;
     position: sticky;
     top: 0;
     z-index: 1000;
     width: 100%;
     box-shadow: 10px 5px 20px rgb(0 0 0 / 70%);
-   
 }
 
-.main-nav{
+.main-nav {
     float: right;
     display: block;
     text-transform: uppercase; 
@@ -32,10 +31,9 @@ body{
     z-index: 1000;
     font-weight: bold;
     color:black;
-    
 }
 
-#hob:hover {
+#hob:hover, #fut:hover, #exp:hover, #proj:hover, #con:hover  {
     background-color: #ea99fd;
     padding: 10px;
     border-radius: 5px;
@@ -44,56 +42,8 @@ body{
 }
 
 
-#hob {
+#hob, #fut, #exp, #proj, #con {
     transition: 0.2s;
-}
-
-#fut:hover {
-    background-color: #ea99fd;
-    padding: 10px;
-    border-radius: 5px;
-    font-size: 15px;
-    font-weight: bold;
-}
-
-#fut {
-    transition: 0.2s;
-}
-
-#exp:hover {
-    background-color: #ea99fd;
-    padding: 10px;
-    border-radius: 5px;
-    font-size: 15px;
-    font-weight: bold;
-}
-
-#exp {
-    transition: 0.2s;
-}
-
-#proj:hover {
-    background-color: #ea99fd;
-    padding: 10px;
-    border-radius: 5px;
-    font-size: 15px;
-    font-weight: bold;
-}
-#proj {
-    transition: 0.2s;
-}
-
-#con {
-    transition: 0.2s;
-}
-
-
-#con:hover {
-    background-color: #ea99fd;
-    padding: 10px;
-    border-radius: 5px;
-    font-size: 15px;
-    font-weight: bold; 
 }
 
 a {
@@ -105,8 +55,6 @@ a {
 .nav-background{
     background-color: #F0B4FF;
     height: 60px;
-    border-top: 2px solid;
-    border-bottom: 2px solid;
     width:100%;
 
 }
@@ -119,7 +67,6 @@ a {
 
 #hero-img{
     width: 100%;
-    border-bottom: 2px solid;
     box-shadow: 10px 5px 20px rgb(0 0 0 / 50%);
 }
 
@@ -143,8 +90,6 @@ a {
 
 .about-me{
     margin-top: 20px;
-    border-top: 2px solid;
-    border-bottom: 2px solid;
     padding-left: 20px;
     width:100%;
     background-color: #E9E5F5;
@@ -169,7 +114,6 @@ a {
 }
 
 #aboutme-title{
-    border: 2px solid;
     padding:20px;
     background-color: #F0B4FF;
     width: 150px;
@@ -180,7 +124,6 @@ a {
 #abbypic{
     width: 30%;
     float: right;
-    border: 2px solid;
     margin-left: 100px;
     margin-right:35px;
     box-shadow: 5px 5px 20px rgb(0 0 0 / 60%)
@@ -189,8 +132,6 @@ a {
 
 .contactbar {
     background-color: #F0B4FF;
-    border-top: 2px solid;
-    border-bottom: 2px solid;
     height: 100px;
     padding-top: 20px;
     margin-top: 20px;
@@ -205,59 +146,18 @@ a {
     padding-bottom:10px;
 }
 
-
-.linkedin { 
-    font-size: 40px;
-    color: white;
-    margin-top: 100px;
-    margin-bottom: -40px;
-}
-
-#linkedin:hover {
-    background-color: #ea99fd;
-    padding: 10px;
-    border-radius: 5px;
-}
-
-.email { 
+.discord, .insta, .email, .linkedin { 
     font-size: 40px;
     color: white;
     margin-left: 20px;
     margin-top: 100px;
     margin-bottom: -40px;
-}
-#email:hover {
-    background-color: #ea99fd;
-    padding: 10px;
-    border-radius: 5px;
-}
 
-.insta { 
-    font-size: 40px;
-    color: white;
-    margin-left: 20px;
-    margin-top: 100px;
-    margin-bottom: -40px;
+.hobbies-section {
+    background-color: #E9E5F5 !important;
+    width: 100px;
+    height: 20px;
 }
-#insta:hover {
-    background-color: #ea99fd;
-    padding: 10px;
-    border-radius: 5px;
-}
-.discord { 
-    font-size: 40px;
-    color: white;
-    margin-left: 20px;
-    margin-top: 100px;
-    margin-bottom: -40px;
-}
-#discord:hover {
-    background-color: #ea99fd;
-    padding: 10px;
-    border-radius: 5px;
-}
-
-
 
 
 

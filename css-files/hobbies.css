@@ -7,9 +7,10 @@
 
 .hobbies-section {
     background-color: #E9E5F5;
+    width: 100%;
+    display: block;
 }
 
-#hob-ext {
-    background-color: 
-    text-align: center;
+.hobbies-experience-section {
+    background-color: #E9E5F5 ;
 }
