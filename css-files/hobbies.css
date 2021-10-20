@@ -13,8 +13,19 @@
     display: block;
     margin-top: 0;
     position:relative;
+    height: 500px;
+    padding-top: 20px;
+    box-shadow: 5px 5px 20px rgb(0 0 0 / 40%);
 }
 
-.hobbies-experience-section {
+.hobbies-experience-div {
     background-color: #E9E5F5 ;
+}
+
+.hobbies-experience-title {
+    padding:20px;
+    background-color: #F0B4FF;
+    width: 340px;
+    margin: 20px;
+    box-shadow: 5px 5px 20px rgb(0 0 0 / 40%);
 }
