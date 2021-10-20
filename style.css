@@ -33,7 +33,7 @@ body{
     color:black;
 }
 
-#hob:hover, #fut:hover, #exp:hover, #proj:hover, #con:hover  {
+#hobbies-nav:hover, #future-nav:hover, #experience-nav:hover, #project-nav:hover, #contact-nav:hover  {
     background-color: #ea99fd;
     padding: 10px;
     border-radius: 5px;
@@ -42,7 +42,7 @@ body{
 }
 
 
-#hob, #fut, #exp, #proj, #con {
+#hobbies-nav, #future-nav, #experience-nav, #project-nav, #contact-nav {
     transition: 0.2s;
 }
 
@@ -88,7 +88,7 @@ a {
     box-shadow: 10px 5px 20px rgb(0 0 0 / 100%);
 }
 
-.about-me{
+.about-me-section{
     margin-top: 20px;
     padding-left: 20px;
     width:100%;
@@ -99,12 +99,12 @@ a {
     box-shadow: 10px 5px 20px rgb(0 0 0 / 50%);
 }
 
-.abtme{
+.about-me-span{
     padding-top: -10px;
     
 }
 
-#abtme-par{
+#about-me-paragraph{
     margin-top:40px;
     width: 60%;
     padding-top: -100px;
@@ -113,7 +113,7 @@ a {
     overflow: hidden;
 }
 
-#aboutme-title{
+#about-me-title{
     padding:20px;
     background-color: #F0B4FF;
     width: 150px;
@@ -152,12 +152,6 @@ a {
     margin-left: 20px;
     margin-top: 100px;
     margin-bottom: -40px;
-
-.hobbies-section {
-    background-color: #E9E5F5 !important;
-    width: 100px;
-    height: 20px;
-}
 
 
 
