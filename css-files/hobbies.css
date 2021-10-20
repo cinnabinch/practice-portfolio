@@ -4,11 +4,15 @@
 #ea99fd; - purp
 #B4F6FF - blue
  */
-
+.nav-bar {
+    margin-bottom: 0;
+}
 .hobbies-section {
     background-color: #E9E5F5;
     width: 100%;
     display: block;
+    margin-top: 0;
+    position:relative;
 }
 
 .hobbies-experience-section {
