@@ -13,7 +13,7 @@
     display: block;
     margin-top: 0;
     position:relative;
-    height: 500px;
+    height: auto;
     padding-top: 20px;
     box-shadow: 5px 5px 20px rgb(0 0 0 / 40%);
 }
