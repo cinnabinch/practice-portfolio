@@ -7,25 +7,50 @@
 .nav-bar {
     margin-bottom: 0;
 }
-.hobbies-section {
+
+
+.hobbies-hero-section {
     background-color: #E9E5F5;
     width: 100%;
     display: block;
     margin-top: 0;
     position:relative;
     height: auto;
-    padding-top: 20px;
+    padding-top: 30px;
     box-shadow: 5px 5px 20px rgb(0 0 0 / 40%);
+    margin-bottom: 20px;
+    padding-bottom: 20px;
 }
 
 .hobbies-experience-div {
     background-color: #E9E5F5 ;
+    position: relative;
+    text-align: center;
+
 }
 
 .hobbies-experience-title {
-    padding:20px;
+    position: absolute;
+    top: 50%;
+    margin-left: 20px;
     background-color: #F0B4FF;
-    width: 340px;
-    margin: 20px;
+    width: 500px;
+    box-shadow: 5px 5px 20px rgb(0 0 0 / 60%);
+    border: 1px solid;
+    font-size: 50px;
+    opacity:0.8;
+}
+
+.hobbies-hero {
+    width: 100%;
+    filter: blur(3px);
+}
+
+.hobbies-details {
+    background-color: #E9E5F5;
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
     box-shadow: 5px 5px 20px rgb(0 0 0 / 40%);
+    margin-bottom: 20px;
 }
