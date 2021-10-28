@@ -55,11 +55,37 @@
     margin-bottom: 20px;
 }
 
+#swimming-title {
+    margin-left: 33%;
+
+}
+
 .swimming{
     display: flex;
     flex-direction: row;
+    margin: 0 300px;
+    align-items: center;
+}
+
+.swim-text-content {
+    display: flex;
+    flex-direction: column;
 }
 
 #swimming-pic {
-    width: 20px;
+    width: 300px;
+}
+
+.gaming{
+    display: flex;
+    flex-direction: row;
+    margin: 0 300px;
+    align-items: center;
+}
+
+.working{
+    display: flex;
+    flex-direction: row;
+    margin: 0 300px;
+    align-items: center;
 }
