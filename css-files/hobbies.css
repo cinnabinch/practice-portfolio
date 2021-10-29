@@ -65,22 +65,25 @@
     display: flex;
     flex-direction: row;
     margin: 0 300px;
-    align-items: center;
+    
 }
 
-.swim-text-content .work-text-content .game-text-content{
+.swim-text-content, .work-text-content, .game-text-content{
     display: flex;
     flex-direction: column;
     padding: 0px 20px;
+    justify-content: center;
 }
 
 #swimming-pic {
     width: 300px;
+
 }
 
 #gaming-pic {
     margin: 20px;
     width: 300px;
+
 }
 
 #work-pic {
