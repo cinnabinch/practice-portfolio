@@ -55,12 +55,12 @@
     margin-bottom: 20px;
 }
 
-#swimming-title {
-    margin-left: 33%;
+#swimming-title, #gaming-title, #working-title {
+    font-size: 25px;
 
 }
 
-.swimming{
+.swimming, .working, .gaming{
     padding: 40px 0px;
     display: flex;
     flex-direction: row;
@@ -78,25 +78,9 @@
     width: 300px;
 }
 
-.gaming{
-    padding: 40px 0px;
-    display: flex;
-    flex-direction: row;
-    margin: 0 300px;
-    align-items: center;
-}
-
 #gaming-pic {
     margin: 20px;
     width: 300px;
-}
-
-.working{
-    padding: 40px 0px;
-    display: flex;
-    flex-direction: row;
-    margin: 0 300px;
-    align-items: center;
 }
 
 #work-pic {
