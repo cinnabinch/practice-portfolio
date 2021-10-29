@@ -43,7 +43,7 @@
 
 .hobbies-hero {
     width: 100%;
-    filter: blur(3px);
+    filter: blur(3px)
 }
 
 .hobbies-details {
@@ -61,15 +61,17 @@
 }
 
 .swimming{
+    padding: 40px 0px;
     display: flex;
     flex-direction: row;
     margin: 0 300px;
     align-items: center;
 }
 
-.swim-text-content {
+.swim-text-content .work-text-content .game-text-content{
     display: flex;
     flex-direction: column;
+    padding: 0px 20px;
 }
 
 #swimming-pic {
@@ -77,15 +79,27 @@
 }
 
 .gaming{
+    padding: 40px 0px;
     display: flex;
     flex-direction: row;
     margin: 0 300px;
     align-items: center;
 }
 
+#gaming-pic {
+    margin: 20px;
+    width: 300px;
+}
+
 .working{
+    padding: 40px 0px;
     display: flex;
     flex-direction: row;
     margin: 0 300px;
     align-items: center;
+}
+
+#work-pic {
+    margin: 20px;
+    width: 400px;
 }
