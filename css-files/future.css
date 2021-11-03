@@ -1,6 +1,7 @@
 #future-hero {
     width: 100%;
-    filter:blur(3px)
+    filter:blur(3px);
+    box-shadow: 10px 5px 20px rgb(0 0 0 / 50%);
 }
 
 #future-title {
@@ -16,9 +17,12 @@
     padding: 10px 25px 10px 25px;
 }
 
-.future-section, .future-colleges{
+.future-colleges {
     background-color: #E9E5F5;
     padding: 20px;
+    margin: 20px 0;
+    box-shadow: 10px 5px 20px rgb(0 0 0 / 50%);
+    
 }
 
 #college-title {
