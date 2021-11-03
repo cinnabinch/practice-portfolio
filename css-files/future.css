@@ -1,83 +1,93 @@
 #future-hero {
-    width: 100%;
-    filter:blur(3px);
-    box-shadow: 10px 5px 20px rgb(0 0 0 / 50%);
+  width: 100%;
+  filter: blur(3px);
+  box-shadow: 10px 5px 20px rgb(0 0 0 / 50%);
 }
 
 #future-title {
-    position: absolute;
-    top: 60%;
-    margin-left: 40px;
-    background-color: #F0B4FF;
-    width: 270px;
-    box-shadow: 5px 5px 20px rgb(0 0 0 / 60%);
-    border: 1px solid;
-    font-size: 50px;
-    opacity:0.8;
-    padding: 10px 25px 10px 25px;
+  position: absolute;
+  top: 60%;
+  margin-left: 40px;
+  background-color: #f0b4ff;
+  width: 270px;
+  box-shadow: 5px 5px 20px rgb(0 0 0 / 60%);
+  border: 1px solid;
+  font-size: 50px;
+  opacity: 0.8;
+  padding: 10px 25px 10px 25px;
 }
 
 .future-colleges {
-    background-color: #E9E5F5;
-    padding: 20px;
-    margin: 20px 0;
-    box-shadow: 10px 5px 20px rgb(0 0 0 / 50%);
-    
+  background-color: #e9e5f5;
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 10px 5px 20px rgb(0 0 0 / 50%);
 }
 
 #college-title {
-    padding:20px;
-    background-color: #F0B4FF;
-    width: 180px;
-    margin-bottom: 20px;
-    margin-left: 20px;
-    box-shadow: 5px 5px 20px rgb(0 0 0 / 40%);
-
+  padding: 20px;
+  background-color: #f0b4ff;
+  width: 180px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  box-shadow: 5px 5px 20px rgb(0 0 0 / 40%);
 }
 
-.mosandt, .tulsa, .urbana {
-    display: flex;
-    flex-direction: column;
-    margin: 0 20px;
+.mosandt,
+.tulsa,
+.urbana {
+  display: flex;
+  flex-direction: column;
+  margin: 0 20px;
 }
 
 .mosandt {
-    font-size: 15px;
+  font-size: 15px;
 }
 
 .tulsa {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .urbana {
-    font-size: 18px;
+  font-size: 18px;
 }
 
-#sandt-pic, #urbana-pic {
-    width: 300px;
+#sandt-pic,
+#urbana-pic {
+  width: 300px;
 }
 
 #tulsa-pic {
-    width: 400px;
-    
+  width: 400px;
 }
 
 #urbana-pic {
-    padding-left: 30px;
+  padding-left: 30px;
 }
 
 .colleges {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 #career-title {
-    padding:20px;
-    background-color: #F0B4FF;
-    width: 255px;
-    margin-bottom: 20px;
-    margin-left: 20px;
-    box-shadow: 5px 5px 20px rgb(0 0 0 / 40%);
+  padding: 20px;
+  background-color: #f0b4ff;
+  width: 255px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  box-shadow: 5px 5px 20px rgb(0 0 0 / 40%);
+}
+
+.video-game-dev,
+.comp-sci-field {
+  display: flex;
+  flex-direction: column;
+}
+
+.careers {
+  display: flex;
+  flex-direction: row;
 }
