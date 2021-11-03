@@ -54,12 +54,12 @@
     margin-bottom: 20px;
 }
 
-#swimming-title, #gaming-title, #working-title {
+#swimming-title, #gaming-title, #working-title, #anime-title{
     font-size: 25px;
 
 }
 
-.swimming, .working, .gaming{
+.swimming, .working, .gaming, .anime{
     padding: 40px 0px;
     display: flex;
     flex-direction: row;
@@ -67,7 +67,7 @@
     
 }
 
-.swim-text-content, .work-text-content, .game-text-content{
+.swim-text-content, .work-text-content, .game-text-content, .anime-text-content{
     display: flex;
     flex-direction: column;
     padding: 0px 20px;
@@ -88,4 +88,9 @@
 #work-pic {
     margin: 20px;
     width: 400px;
+}
+
+#anime-pic {
+    margin: 20px;
+    width: 300px;
 }
