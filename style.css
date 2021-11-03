@@ -31,6 +31,13 @@ body{
     z-index: 1000;
     font-weight: bold;
     color:black;
+
+}
+/* if the device has a screen with a width of 750px or less, will hide the nav */
+@media only screen and (max-width: 750px) {
+    .nav-bar {
+        display: none;
+    }
 }
 
 #hobbies-nav:hover, #future-nav:hover, #experience-nav:hover, #project-nav:hover, #contact-nav:hover  {
