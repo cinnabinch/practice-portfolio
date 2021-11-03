@@ -72,6 +72,12 @@
   justify-content: center;
 }
 
+.future-careers-sect {
+    background-color: #e9e5f5;
+    padding: 20px 20px 30px;
+    box-shadow: 5px 5px 20px rgb(0 0 0 / 40%);
+}
+
 #career-title {
   padding: 20px;
   background-color: #f0b4ff;
@@ -86,8 +92,24 @@
   display: flex;
   flex-direction: column;
 }
+.comp-sci-field{
+    font-size: 20px;
+}
 
 .careers {
   display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+ 
+}
+
+#game-programmer-pic {
+    width: 400px;
+    margin-right: 50px;
+}
+
+#comp-sci-pic {
+    width: 475px;
 }
