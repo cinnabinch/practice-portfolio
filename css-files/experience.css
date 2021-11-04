@@ -1,6 +1,13 @@
+.hero-experienc-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+
 #experience-title {
     position: absolute;
-    top: 60%;
+    top: 50%;
     margin-left: 40px;
     background-color: #f0b4ff;
     width: 370px;
@@ -16,4 +23,17 @@
     filter: blur(3px);
 }
 
-.cse-content, .csp-content, .launch-code-content, .
+.cse-content, .csp-content, .launch-code-content, .stlcaps-content {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+}
+
+.experience-content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: space-between;
+}
