@@ -23,39 +23,49 @@
 } */
 
 #experience-hero-pic {
-    width: 100%;
-    filter: blur(3px);
-    box-shadow: 10px 5px 20px rgb(0 0 0 / 50%);
-  }
-  
-  .hero-experience-section {
-    position: relative;
-  }
-  
-  #experience-title {
-    position: absolute;
-    margin-left: 40px;
-    top: 40vh;
-    background-color: #f0b4ff;
-    width: 300px;
-    box-shadow: 5px 5px 20px rgb(0 0 0 / 60%);
-    border: 1px solid;
-    font-size: 50px;
-    opacity: 0.8;
-    padding: 10px 25px 10px 25px;
-  }
-
-.cse-content, .csp-content, .launch-code-content, .stlcaps-content {
-    display: flex;
-    flex-direction: column;
-    max-width: 500px;
+  width: 100%;
+  filter: blur(3px);
+  box-shadow: 10px 5px 20px rgb(0 0 0 / 50%);
 }
 
-.experience-content{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    align-content: space-between;
+.hero-experience-section {
+  position: relative;
+}
+
+#experience-title {
+  position: absolute;
+  margin-left: 40px;
+  top: 20vw;
+  background-color: #f0b4ff;
+  width: 30vw;
+  box-shadow: 5px 5px 20px rgb(0 0 0 / 60%);
+  border: 1px solid;
+  font-size: 4vw;
+  opacity: 0.8;
+  padding: 10px 25px 10px 25px;
+}
+
+@media only screen and (max-width: 750px) {
+  #experience-title {
+    top: 10vw;
+  }
+  }
+}
+
+.cse-content,
+.csp-content,
+.launch-code-content,
+.stlcaps-content {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+}
+
+.experience-content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  align-content: space-between;
 }
