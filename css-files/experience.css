@@ -1,13 +1,12 @@
-.hero-experienc-section {
-    display: flex;
+.hero-experience-section {
     align-items: center;
     justify-content: center;
+    
 } 
 
 
 #experience-title {
-    position: absolute;
-    top: 50%;
+    position: flex;
     margin-left: 40px;
     background-color: #f0b4ff;
     width: 370px;
