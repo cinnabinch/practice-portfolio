@@ -1,4 +1,4 @@
-.hero-experience-section {
+/* .hero-experience-section {
     align-items: center;
     justify-content: center;
     
@@ -20,7 +20,30 @@
 #experience-hero-pic {
     width: 100%;
     filter: blur(3px);
-}
+} */
+
+#experience-hero-pic {
+    width: 100%;
+    filter: blur(3px);
+    box-shadow: 10px 5px 20px rgb(0 0 0 / 50%);
+  }
+  
+  .hero-experience-section {
+    position: relative;
+  }
+  
+  #experience-title {
+    position: absolute;
+    margin-left: 40px;
+    top: 40vh;
+    background-color: #f0b4ff;
+    width: 300px;
+    box-shadow: 5px 5px 20px rgb(0 0 0 / 60%);
+    border: 1px solid;
+    font-size: 50px;
+    opacity: 0.8;
+    padding: 10px 25px 10px 25px;
+  }
 
 .cse-content, .csp-content, .launch-code-content, .stlcaps-content {
     display: flex;
