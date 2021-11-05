@@ -38,6 +38,10 @@ body{
     .nav-bar {
         display: none;
     }
+    .text-block {
+        top: 5vw;
+
+    }
 }
 
 #hobbies-nav:hover, #future-nav:hover, #experience-nav:hover, #project-nav:hover, #contact-nav:hover  {
@@ -83,14 +87,14 @@ a {
 
 .text-block{
     position: absolute;
-    bottom: 20px;
-    right: 20px;
+    top: 15vw;
+    left: 40px;
     background-color: white;
     color: black;
     padding-left: 20px;
     padding-right: 20px;
     border: 1px solid;
-    font-size: 30px;
+    font-size: 2.5vw;
     opacity: 0.6;
     box-shadow: 10px 5px 20px rgb(0 0 0 / 100%);
 }

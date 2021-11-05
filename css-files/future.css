@@ -14,12 +14,18 @@
   position: absolute;
   margin-left: 40px;
   background-color: #f0b4ff;
-  width: 270px;
+  width: 20vw;
   box-shadow: 5px 5px 20px rgb(0 0 0 / 60%);
   border: 1px solid;
-  font-size: 50px;
+  font-size: 4vw;
   opacity: 0.8;
   padding: 10px 25px 10px 25px;
+}
+
+@media only screen and (max-width: 750px) {
+  #future-title {
+    top: 10vw;
+  }
 }
 
 .future-colleges {

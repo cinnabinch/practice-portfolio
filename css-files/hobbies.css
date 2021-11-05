@@ -21,24 +21,30 @@
     padding-bottom: 20px;
 }
 
-.hobbies-experience-div {
+.hobbies-extra-div {
     background-color: #E9E5F5 ;
     position: relative;
     text-align: center;
 
 }
 
-.hobbies-experience-title {
+.hobbies-extra-title {
     position: absolute;
-    top: 50%;
+    top: 20vw;
     margin-left: 20px;
     background-color: #F0B4FF;
-    width: 500px;
+    width: 30vw;
     box-shadow: 5px 5px 20px rgb(0 0 0 / 60%);
     border: 1px solid;
-    font-size: 50px;
+    font-size: 3vw;
     opacity:0.8;
 }
+
+@media only screen and (max-width: 750px) {
+    #hobbies-extra-title {
+      top: 10vw;
+    }
+  }
 
 .hobbies-hero {
     width: 100%;
