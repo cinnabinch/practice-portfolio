@@ -58,6 +58,7 @@
   display: flex;
   flex-direction: column;
   max-width: 500px;
+  padding: 20px;
 }
 
 .experience-content {
@@ -67,4 +68,10 @@
   align-items: center;
   justify-content: center;
   align-content: space-between;
+  background-color: #E9E5F5;
+  margin: 20px 0;
+  box-shadow: 5px 5px 20px rgb(0 0 0 / 60%);
+  padding: 40px;
 }
+
+

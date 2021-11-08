@@ -156,6 +156,7 @@ a {
     width: 100%;
     text-align: center;
     padding-bottom:10px;
+    box-shadow: 5px 5px 20px rgb(0 0 0 / 60%);
 }
 
 .discord, .insta, .email, .linkedin, .github { 
