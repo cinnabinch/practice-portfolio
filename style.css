@@ -111,8 +111,14 @@ a {
 }
 
 .about-me-span{
-    padding-top: -10px;
+    display: flex;
+    flex-direction: row;
     
+}
+
+.about-me-text {
+    display: flex;
+    flex-direction: column;
 }
 
 #about-me-paragraph{
@@ -122,6 +128,7 @@ a {
     text-align: left;
     display: inline;
     overflow: hidden;
+    font-size: 20px;
 }
 
 #about-me-title{
@@ -132,7 +139,7 @@ a {
     box-shadow: 5px 5px 20px rgb(0 0 0 / 40%);
 }
 
-#abbypic{
+#about-me-pic{
     width: 30%;
     float: right;
     margin-left: 100px;
