@@ -1,0 +1,20 @@
+.projects-hero-container {
+    position: relative;
+}
+
+#projects-hero-img {
+    width: 100%;
+}
+
+#projects-title {
+    position: absolute;
+    margin-left: 40px;
+    top: 15vw;
+    background-color: #f0b4ff;
+    width: 30vw;
+    box-shadow: 5px 5px 20px rgb(0 0 0 / 60%);
+    border: 1px solid;
+    font-size: 4vw;
+    opacity: 0.8;
+    padding: 10px 25px 10px 25px;
+}
