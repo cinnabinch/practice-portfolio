@@ -1,0 +1,12 @@
+.contact-links {
+    display: flex;
+    flex-direction: column;
+    background-color: #E9E5F5;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.linkedin-contact, .email-contact, .instagram-contact, .discord-contact, .github-contact {
+    padding: 20px;
+}
