@@ -105,14 +105,15 @@ a {
     width:100%;
     background-color: #E9E5F5;
     font-family: 'Trebuchet MS', sans-serif;
-    padding-bottom: 500px;
-    padding-top: 20px;
+    padding-bottom: 50px;
+    padding-top: 50px;
     box-shadow: 10px 5px 20px rgb(0 0 0 / 50%);
 }
 
 .about-me-span{
     display: flex;
     flex-direction: row;
+    justify-content: center;
     
 }
 
@@ -123,12 +124,10 @@ a {
 
 #about-me-paragraph{
     margin-top:40px;
-    width: 60%;
-    padding-top: -100px;
-    text-align: left;
-    display: inline;
+    max-width: 300px;
     overflow: hidden;
     font-size: 20px;
+    
 }
 
 #about-me-title{

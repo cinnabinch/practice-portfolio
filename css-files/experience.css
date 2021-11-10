@@ -51,6 +51,14 @@
   }
 }
 
+#cse-title, #csp-title, #launch-code-title, #caps-title {
+  font-size: 30px;
+}
+
+#launch-code-title {
+  padding-bottom: 10px;
+}
+
 .cse-content,
 .csp-content,
 .launch-code-content,
@@ -59,13 +67,16 @@
   flex-direction: column;
   max-width: 500px;
   padding: 20px;
+  text-align: center;
 }
+
+
 
 .experience-content {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  align-items: center;
+  align-items: baseline;
   justify-content: center;
   align-content: space-between;
   background-color: #E9E5F5;
