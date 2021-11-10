@@ -52,12 +52,14 @@
 }
 
 .hobbies-details {
+    display: flex;
+    flex-direction: column;
     background-color: #E9E5F5;
-    width: 100%;
     height: auto;
     padding-top: 20px;
     box-shadow: 5px 5px 20px rgb(0 0 0 / 40%);
     margin-bottom: 20px;
+    align-items: center;
 }
 
 #swimming-title, #gaming-title, #working-title, #anime-title{
@@ -69,15 +71,22 @@
     padding: 40px 0px;
     display: flex;
     flex-direction: row;
-    margin: 0 300px;
     
 }
+
+@media only screen and (max-width: 750px) {
+    .swimming, .working, .gaming, .anime {
+      flex-wrap: wrap;
+    }
+  
+  }
 
 .swim-text-content, .work-text-content, .game-text-content, .anime-text-content{
     display: flex;
     flex-direction: column;
     padding: 0px 20px;
     justify-content: center;
+    max-width: 400px;
 }
 
 #swimming-pic {
