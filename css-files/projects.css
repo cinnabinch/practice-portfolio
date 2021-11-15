@@ -20,12 +20,21 @@
     padding: 10px 25px 10px 25px;
 }
 
+.project-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E9E5F5;
+    margin: 20px 0;
+    box-shadow: 5px 5px 20px rgb(0 0 0 / 60%);
+    padding: 40px;
+}
+
 .portfolio-content {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    max-width: 300px;
+    max-width: 500px;
     text-align: center;
     
 }
