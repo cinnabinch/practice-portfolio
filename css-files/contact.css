@@ -1,12 +1,19 @@
+.contact-title {
+    background-color: #E9E5F5;
+    box-shadow: 5px 5px 20px rgb(0 0 0 / 60%);
+}
+
 .contact-links {
     display: flex;
     flex-direction: column;
     background-color: #E9E5F5;
     align-items: center;
     justify-content: space-between;
+    box-shadow: 5px 5px 20px rgb(0 0 0 / 60%);
     
 }
 
 .linkedin-contact, .email-contact, .instagram-contact, .discord-contact, .github-contact {
     padding: 20px;
+    font-size: 30px;
 }
