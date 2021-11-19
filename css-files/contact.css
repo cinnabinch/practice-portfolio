@@ -1,19 +1,40 @@
-.contact-title {
-    background-color: #E9E5F5;
+#contact-title {
+    background-color: #f0b4ff;
     box-shadow: 5px 5px 20px rgb(0 0 0 / 60%);
+    width: 185px;
+    font-size: 35px;
+    margin: 40px 40px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.contact-container {
+    box-shadow: 5px 5px 20px rgb(0 0 0 / 60%);
+    background-color: #E9E5F5;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
 
 .contact-links {
     display: flex;
-    flex-direction: column;
-    background-color: #E9E5F5;
+    flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    box-shadow: 5px 5px 20px rgb(0 0 0 / 60%);
+    justify-content: center;
     
 }
 
 .linkedin-contact, .email-contact, .instagram-contact, .discord-contact, .github-contact {
     padding: 20px;
     font-size: 30px;
+}
+
+.linkedin-contact:hover, .email-contact:hover, .instagram-contact:hover, .discord-contact:hover, .github-contact:hover {
+    background-color: #f0b4ff;
+    transition: 0.1s;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px rgb(0 0 0 / 60%);
+    font-size: 32px;
 }

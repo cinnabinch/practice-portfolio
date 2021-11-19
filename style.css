@@ -33,6 +33,22 @@ body{
     color:black;
 
 }
+
+.nav-burger {
+    overflow: hidden;
+    position: sticky;
+}
+
+.nav-burger-content {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    text-transform: uppercase; 
+    word-spacing: 15px;
+
+}
+
+
 /* if the device has a screen with a width of 750px or less, will hide the nav */
 @media only screen and (max-width: 750px) {
     .nav-bar {
@@ -41,6 +57,12 @@ body{
     .text-block {
         top: 5vw;
 
+    }
+}
+
+@media only screen and (min-width: 750px) {
+    .nav-burger {
+        display: none;
     }
 }
 
