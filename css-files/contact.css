@@ -11,13 +11,18 @@
 .contact-container {
     box-shadow: 5px 5px 20px rgb(0 0 0 / 60%);
     background-color: #E9E5F5;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
 
 .contact-links {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    justify-content: center;
     
 }
 
