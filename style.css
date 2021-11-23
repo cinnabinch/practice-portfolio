@@ -37,6 +37,8 @@ body{
 .nav-burger {
     overflow: hidden;
     position: sticky;
+    box-shadow: 10px 5px 20px rgb(0 0 0 / 70%);
+    background-color: #F0B4FF;
 }
 
 .nav-burger-content {
@@ -45,6 +47,9 @@ body{
     align-items: center;
     text-transform: uppercase; 
     word-spacing: 15px;
+    font-weight: bold;
+    padding: 20px;
+
 
 }
 
@@ -77,6 +82,7 @@ body{
 
 #hobbies-nav, #future-nav, #experience-nav, #project-nav, #contact-nav {
     transition: 0.2s;
+    padding: 5px;
 }
 
 a {
@@ -136,12 +142,16 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
     
 }
 
 .about-me-text {
     display: flex;
     flex-direction: column;
+    text-align: center;
+    justify-content: center;
 }
 
 #about-me-paragraph{
@@ -161,10 +171,8 @@ a {
 }
 
 #about-me-pic{
-    width: 30%;
-    float: right;
-    margin-left: 100px;
-    margin-right:35px;
+    width: 425px;
+    height: 350px;
     box-shadow: 5px 5px 20px rgb(0 0 0 / 60%);
 
     
