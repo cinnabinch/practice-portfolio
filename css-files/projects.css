@@ -30,11 +30,17 @@
     padding: 40px;
 }
 
-.portfolio-content {
+.portfolio-content, .wilson-content {
+    padding: 20px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
     max-width: 500px;
     text-align: center;
     
+}
+
+#bloom-box-pic {
+    max-width: 80vw;
+    padding: 20px;
 }
