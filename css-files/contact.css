@@ -11,7 +11,7 @@
 .contact-container {
     box-shadow: 5px 5px 20px rgb(0 0 0 / 60%);
     background-color: #E9E5F5;
-    height: 300px;
+    height: auto;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -23,6 +23,7 @@
     align-items: center;
     justify-content: space-between;
     justify-content: center;
+    flex-wrap: wrap;
     
 }
 
@@ -37,4 +38,12 @@
     border-radius: 10px;
     box-shadow: 5px 5px 20px rgb(0 0 0 / 60%);
     font-size: 32px;
+}
+
+@media only screen and (max-width: 750px;) {
+    .contact-links {
+        display: flex;
+        flex-direction: column;
+        
+    }
 }
