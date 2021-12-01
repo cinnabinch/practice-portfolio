@@ -71,7 +71,7 @@ body{
     }
 }
 
-#hobbies-nav:hover, #future-nav:hover, #experience-nav:hover, #project-nav:hover, #contact-nav:hover  {
+#hobbies-nav:hover, #future-nav:hover, #experience-nav:hover, #project-nav:hover, #contact-nav:hover, #life-nav:hover {
     background-color: #ea99fd;
     padding: 10px;
     border-radius: 5px;
@@ -80,7 +80,7 @@ body{
 }
 
 
-#hobbies-nav, #future-nav, #experience-nav, #project-nav, #contact-nav {
+#hobbies-nav, #future-nav, #experience-nav, #project-nav, #contact-nav, #life-nav {
     transition: 0.2s;
     padding: 5px;
 }
