@@ -30,17 +30,17 @@
     padding: 40px;
 }
 
-.portfolio-content, .wilson-content {
+.portfolio-content, .wilson-content, .bizfitz-content {
     padding: 20px 0;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-content: center;
     max-width: 500px;
     text-align: center;
     
 }
 
-#bloom-box-pic {
+#bloom-box-pic, #bizfitz-logo {
     max-width: 80vw;
     padding: 20px;
 }
