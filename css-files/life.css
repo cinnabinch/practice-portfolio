@@ -1,0 +1,29 @@
+.life-hero-section {
+    position: relative;
+}
+
+#life-hero {
+    width: 100%;
+    filter: blur(3px);
+    box-shadow: 10px 5px 20px rgb(0 0 0 / 50%);
+}
+
+#life-title {
+    position: absolute;
+    top: 20vw;
+    background-color: #f0b4ff;
+    box-shadow: 10px 5px 20px rgb(0 0 0 / 50%);
+    border: 1px solid;
+    opacity: 0.8;
+    margin-left: 40px;
+    width: 20vw;
+    text-align: center;
+    font-size: 3vw;
+    padding: 10px;
+
+
+}
+
+.cali-carousel {
+    width: 500px;
+}
