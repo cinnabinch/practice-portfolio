@@ -57,7 +57,7 @@
 }
 
 .tulsa {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .urbana {
@@ -70,7 +70,7 @@
 }
 
 #tulsa-pic {
-  width: 400px;
+  width: 300px;
 }
 
 #urbana-pic {
@@ -109,6 +109,9 @@
 .comp-sci-field {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-content: center;
+
 }
 .comp-sci-field{
     font-size: 20px;
@@ -124,10 +127,10 @@
 }
 
 #game-programmer-pic {
-    width: 400px;
+    width: 300px;
     margin-right: 50px;
 }
 
 #comp-sci-pic {
-    width: 475px;
+    width: 300px;
 }
