@@ -150,13 +150,12 @@ a {
 .about-me-text {
     display: flex;
     flex-direction: column;
-    text-align: center;
     justify-content: center;
 }
 
 #about-me-paragraph{
     margin-top:40px;
-    max-width: 300px;
+    max-width: 500px;
     overflow: hidden;
     font-size: 20px;
     
@@ -168,6 +167,7 @@ a {
     width: 150px;
     margin-bottom: 20px;
     box-shadow: 5px 5px 20px rgb(0 0 0 / 40%);
+    text-align: center;
 }
 
 #about-me-pic{
