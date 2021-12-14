@@ -129,7 +129,6 @@ a {
 
 .about-me-section{
     margin-top: 20px;
-    padding-left: 20px;
     width:100%;
     background-color: #E9E5F5;
     font-family: 'Trebuchet MS', sans-serif;
@@ -142,7 +141,6 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    justify-content: space-evenly;
     flex-wrap: wrap;
     
 }
@@ -151,11 +149,12 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding: 40px;
 }
 
 #about-me-paragraph{
     margin-top:40px;
-    max-width: 500px;
+    max-width: 600px;
     overflow: hidden;
     font-size: 20px;
     
