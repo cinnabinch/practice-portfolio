@@ -80,8 +80,8 @@ body{
 }
 
 
-, #home-nav#hobbies-nav, #future-nav, #experience-nav, #project-nav, #contact-nav, #life-nav {
-    transition: 0.2s;
+#home-nav, #hobbies-nav, #future-nav, #experience-nav, #project-nav, #contact-nav, #life-nav {
+    transition: 0.3s;
     padding: 5px;
 }
 
