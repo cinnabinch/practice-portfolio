@@ -61,7 +61,15 @@
 }
 
 .urbana {
-  font-size: 18px;
+  position: relative;
+  bottom: 30px;
+  font-size: 20px;
+  justify-content: center;
+}
+
+#urbana-title {
+  max-width: 250px;
+  text-align: center;
 }
 
 #sandt-pic,
@@ -114,7 +122,7 @@
 
 }
 .comp-sci-field{
-    font-size: 20px;
+    font-size: 22px;
 }
 
 .careers {
