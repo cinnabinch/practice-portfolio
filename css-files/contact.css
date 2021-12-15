@@ -4,12 +4,11 @@ body {
 
 #contact-title {
     background-color: #f0b4ff;
-    box-shadow: 5px 5px 20px rgb(0 0 0 / 60%);
-    width: 185px;
+    box-shadow: 5px 5px 20px rgb(0 0 0 / 20%);
+    width: 500px;
     font-size: 35px;
     margin: 40px 40px;
     padding: 10px;
-    border-radius: 10px;
 }
 
 .contact-container {
@@ -42,6 +41,20 @@ body {
     padding: 20px;
     font-size: 30px;
     transition: 0.3s;
+    display: flex;
+    flex-direction: row;
+
+}
+
+#linked-user, #email-user, #insta-user, #disc-user, #github-user {
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.linked-icon, .email-icon, .insta-icon, .disc-icon, .github-icon {
+    font-size: 60px;
+    color: #ea99fd;
+    -webkit-text-stroke: black 1px;
 }
 
 .linkedin-contact:hover, .email-contact:hover, .instagram-contact:hover, .discord-contact:hover, .github-contact:hover {
@@ -50,6 +63,7 @@ body {
     border-radius: 10px;
     box-shadow: 5px 5px 20px rgb(0 0 0 / 60%);
     font-size: 32px;
+    color: black;
 }
 
 @media only screen and (max-width: 750px;) {

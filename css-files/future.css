@@ -39,10 +39,10 @@
 #college-title {
   padding: 20px;
   background-color: #f0b4ff;
-  width: 180px;
+  width: 600px;
   margin-bottom: 20px;
   margin-left: 20px;
-  box-shadow: 5px 5px 20px rgb(0 0 0 / 40%);
+  box-shadow: 5px 5px 20px rgb(0 0 0 / 20%);
 }
 
 .mosandt,
@@ -109,10 +109,10 @@
 #career-title {
   padding: 20px;
   background-color: #f0b4ff;
-  width: 255px;
+  width: 600px;
   margin-bottom: 20px;
   margin-left: 20px;
-  box-shadow: 5px 5px 20px rgb(0 0 0 / 40%);
+  box-shadow: 5px 5px 20px rgb(0 0 0 / 20%);
 }
 
 .video-game-dev,
