@@ -9,22 +9,16 @@
 }
 
 .hobbies-hero-section {
-    background-color: #E9E5F5;
     width: 100%;
     display: block;
     margin-top: 0;
     position:relative;
-    height: auto;
-    padding-top: 30px;
-    box-shadow: 5px 5px 20px rgb(0 0 0 / 40%);
-    margin-bottom: 20px;
-    padding-bottom: 20px;
 }
 
 .hobbies-extra-div {
-    background-color: #E9E5F5 ;
     position: relative;
     text-align: center;
+    padding-bottom: 20px;
 
 }
 
@@ -48,7 +42,7 @@
 
 .hobbies-hero {
     width: 100%;
-    filter: blur(3px)
+    box-shadow: 5px 5px 20px rgb(0 0 0 / 40%);
 }
 
 .hobbies-details {
