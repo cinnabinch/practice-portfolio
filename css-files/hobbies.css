@@ -67,7 +67,11 @@
 
 }
 
-.swimming, .working, .gaming, .anime{
+#working-title, #anime-title {
+    padding-bottom: 0;
+}
+
+.swimming, .working, .gaming, .anime {
     padding: 40px 0px;
     display: flex;
     flex-direction: row;
@@ -91,6 +95,7 @@
 
 #swimming-pic {
     width: 300px;
+    padding-left: 20px;
 
 }
 
