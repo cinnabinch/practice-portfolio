@@ -196,8 +196,8 @@ a {
 
 .discord, .insta, .email, .linkedin, .github { 
     font-size: 40px;
-    color: white;
+    color: black;
     margin-left: 20px;
     margin-top: 100px;
     margin-bottom: -40px;
-
+}
