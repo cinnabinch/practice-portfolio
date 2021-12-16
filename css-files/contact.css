@@ -57,13 +57,14 @@ body {
     -webkit-text-stroke: black 1px;
 }
 
+
 .linkedin-contact:hover, .email-contact:hover, .instagram-contact:hover, .discord-contact:hover, .github-contact:hover {
     background-color: #f0b4ff;
     transition: 0.1s;
     border-radius: 10px;
     box-shadow: 5px 5px 20px rgb(0 0 0 / 60%);
     font-size: 32px;
-    color: black;
+    color: 
 }
 
 @media only screen and (max-width: 750px;) {

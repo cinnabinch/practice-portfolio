@@ -51,9 +51,10 @@
   flex-direction: column;
   margin: 0 20px;
 }
-
+ 
 .mosandt {
   font-size: 15px;
+  padding-right: 25px;
 }
  
 .tulsa {
