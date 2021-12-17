@@ -144,7 +144,7 @@ a {
     flex-wrap: wrap;
     
 }
-
+ 
 .about-me-text {
     display: flex;
     flex-direction: column;
@@ -158,6 +158,15 @@ a {
     overflow: hidden;
     font-size: 20px;
     
+}
+
+@media only screen and (max-width: 750px)  {
+    #about-me-paragraph {
+        max-width: 300px;
+    }
+    #about-me-title {
+        max-width: 300px;
+    }
 }
 
 #about-me-title{
