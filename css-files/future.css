@@ -44,9 +44,8 @@
   box-shadow: 5px 5px 20px rgb(0 0 0 / 20%);
 }
 
-.mosandt,
-.tulsa,
-.urbana {
+.mosandt
+{
   display: flex;
   flex-direction: column;
   margin: 0 20px;
@@ -57,40 +56,17 @@
   padding-right: 25px;
 }
 
- 
-.tulsa {
-  font-size: 18px;
-  margin-bottom: 10px;
+#st-title { 
+  padding: 0 0 25px 20px;
 }
 
-.urbana {
-  position: relative;
-  bottom: 30px;
-  font-size: 20px;
-  justify-content: center;
-}
-
-#urbana-title {
-  max-width: 250px;
-  padding-left: 30px;
-  padding-top: 25px;
-}
-
-#st-title, #tulsa-title { 
-  padding-bottom: 25px;
-}
-
-#sandt-pic,
-#urbana-pic {
+#sandt-pic{
   width: 300px;
 }
 
-#tulsa-pic {
+#st-text {
   width: 300px;
-}
-
-#urbana-pic {
-  padding-left: 30px;
+  padding-left: 20px;
 }
 
 .colleges {
