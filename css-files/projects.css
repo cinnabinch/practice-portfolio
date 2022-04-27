@@ -20,6 +20,15 @@
   padding: 10px 25px 10px 25px;
 }
 
+#portfolio-title,
+#bloom-title,
+#bizfitz-title {
+  max-width: 250px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: white;
+}
+
 .project-content {
   display: flex;
   flex-direction: column;
@@ -28,6 +37,7 @@
   margin: 20px 0;
   box-shadow: 5px 5px 20px rgb(0 0 0 / 60%);
   padding: 40px;
+  color: white;
 }
 
 .portfolio-content,
@@ -39,6 +49,7 @@
   align-content: center;
   max-width: 500px;
   text-align: center;
+  align-items: center;
 }
 
 #bloom-box-pic,

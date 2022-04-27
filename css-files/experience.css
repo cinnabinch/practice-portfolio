@@ -26,8 +26,16 @@
   }
 }
 
-#cse-title, #csp-title, #launch-code-title, #caps-title {
+#cse-title,
+#csp-title,
+#launch-code-title,
+#caps-title {
   font-size: 30px;
+
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: white;
+  padding-bottom: 10px;
 }
 
 .cse-content,
@@ -39,9 +47,8 @@
   max-width: 500px;
   padding: 20px;
   text-align: center;
+  align-items: center;
 }
-
-
 
 .experience-content {
   display: flex;
@@ -50,10 +57,9 @@
   align-items: baseline;
   justify-content: center;
   align-content: space-between;
-  background-color: #E9E5F5;
+  background-color: #313639;
   margin: 20px 0;
   box-shadow: 5px 5px 20px rgb(0 0 0 / 60%);
   padding: 40px;
+  color: white;
 }
-
-

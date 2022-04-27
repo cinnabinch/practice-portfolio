@@ -66,7 +66,6 @@ body {
 .github-icon {
   font-size: 60px;
   color: #ea99fd;
-  -webkit-text-stroke: black 1px;
 }
 
 .linkedin-contact:hover,
@@ -79,7 +78,6 @@ body {
   border-radius: 10px;
   box-shadow: 5px 5px 20px rgb(0 0 0 / 60%);
   font-size: 32px;
-  color: ;
 }
 
 @media only screen and (max-width: 750px;) {
@@ -87,4 +85,9 @@ body {
     display: flex;
     flex-direction: column;
   }
+}
+
+.contact-footer {
+  background-color: #ea99fd;
+  height: 100%;
 }

@@ -74,8 +74,7 @@ body {
 #experience-nav:hover,
 #project-nav:hover,
 #contact-nav:hover,
-#life-nav:hover,
-#calculator-nav:hover {
+#life-nav:hover {
   background-color: #ea99fd;
   padding: 10px;
   border-radius: 5px;
@@ -89,8 +88,7 @@ body {
 #experience-nav,
 #project-nav,
 #contact-nav,
-#life-nav,
-#calculator-nav {
+#life-nav {
   transition: 0.3s;
   padding: 5px;
 }
