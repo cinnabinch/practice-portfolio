@@ -5,66 +5,78 @@
 #B4F6FF - blue
  */
 .nav-bar {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .hobbies-hero-section {
-    width: 100%;
-    display: block;
-    margin-top: 0;
-    position:relative;
+  width: 100%;
+  display: block;
+  margin-top: 0;
+  position: relative;
 }
 
 .hobbies-extra-div {
-    position: relative;
-    text-align: center;
-    padding-bottom: 20px;
-
+  position: relative;
+  text-align: center;
+  padding-bottom: 20px;
 }
 
 .hobbies-extra-title {
-    position: absolute;
-    top: 20vw;
-    margin-left: 20px;
-    background-color: #F0B4FF;
-    width: 30vw;
-    box-shadow: 5px 5px 20px rgb(0 0 0 / 60%);
-    border: 1px solid;
-    font-size: 3vw;
-    opacity:0.8;
+  position: absolute;
+  top: 20vw;
+  margin-left: 20px;
+  background-color: #f0b4ff;
+  width: 30vw;
+  box-shadow: 5px 5px 20px rgb(0 0 0 / 60%);
+  border: 1px solid;
+  font-size: 3vw;
+  opacity: 0.8;
 }
 
 @media only screen and (max-width: 750px) {
-    #hobbies-extra-title {
-      top: 10vw;
-    }
+  #hobbies-extra-title {
+    top: 10vw;
   }
+}
 
 .hobbies-hero {
-    width: 100%;
-    box-shadow: 5px 5px 20px rgb(0 0 0 / 40%);
+  width: 100%;
+  box-shadow: 5px 5px 20px rgb(0 0 0 / 40%);
 }
 
 .hobbies-details {
-    display: flex;
-    flex-direction: column;
-    background-color: #E9E5F5;
-    height: auto;
-    padding-top: 20px;
-    box-shadow: 5px 5px 20px rgb(0 0 0 / 40%);
-    margin-bottom: 20px;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #313639;
+  height: auto;
+  padding-top: 20px;
+  box-shadow: 5px 5px 20px rgb(0 0 0 / 40%);
+  margin-bottom: 20px;
+  align-items: center;
 }
 
+<<<<<<< Updated upstream
 #swimming-title, #gaming-title, #working-title, #anime-title, #crochet-title{
     font-size: 25px;
 
+=======
+#swimming-title,
+#gaming-title,
+#working-title,
+#anime-title {
+  font-size: 25px;
+  border-bottom-width: 1px;
+  border-bottom-color: white;
+  border-bottom-style: solid;
+>>>>>>> Stashed changes
 }
 
-#working-title, #anime-title {
-    padding-bottom: 0;
+#working-title,
+#anime-title {
+  padding-bottom: 0;
 }
 
+<<<<<<< Updated upstream
 .swimming, .working, .gaming, .anime, .crocheting {
     padding: 40px 0px;
     display: flex;
@@ -77,34 +89,69 @@
       flex-wrap: wrap;
     }
   
-  }
+=======
+.swimming,
+.working,
+.gaming,
+.anime {
+  padding: 40px 0px;
+  display: flex;
+  flex-direction: row;
+}
 
+@media only screen and (max-width: 750px) {
+  .swimming,
+  .working,
+  .gaming,
+  .anime {
+    flex-wrap: wrap;
+>>>>>>> Stashed changes
+  }
+}
+
+<<<<<<< Updated upstream
 .swim-text-content, .work-text-content, .game-text-content, .anime-text-content, .crochet-text-content{
     display: flex;
     flex-direction: column;
     padding: 0px 20px;
     justify-content: center;
     max-width: 400px;
+=======
+.swim-text-content,
+.work-text-content,
+.game-text-content,
+.anime-text-content {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 20px;
+  justify-content: center;
+  max-width: 400px;
+  color: white;
+>>>>>>> Stashed changes
 }
 
 #swimming-pic {
-    width: 300px;
-    padding-left: 20px;
-
+  width: 300px;
+  padding-left: 20px;
 }
 
 #gaming-pic {
-    margin: 20px;
-    width: 300px;
-
+  margin: 20px;
+  width: 300px;
 }
 
 #work-pic {
-    margin: 20px;
-    width: 400px;
+  margin: 20px;
+  width: 400px;
 }
 
+<<<<<<< Updated upstream
 #anime-pic, #crochet-pic {
     margin: 20px;
     width: 300px;
+=======
+#anime-pic {
+  margin: 20px;
+  width: 300px;
+>>>>>>> Stashed changes
 }

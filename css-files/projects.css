@@ -1,46 +1,48 @@
 .projects-hero-container {
-    position: relative;
+  position: relative;
 }
 
 #projects-hero-img {
-    width: 100%;
-    box-shadow: 5px 5px 20px rgb(0 0 0 / 60%);
+  width: 100%;
+  box-shadow: 5px 5px 20px rgb(0 0 0 / 60%);
 }
 
 #projects-title {
-    position: absolute;
-    margin-left: 40px;
-    top: 15vw;
-    background-color: #f0b4ff;
-    width: 22vw;
-    box-shadow: 5px 5px 20px rgb(0 0 0 / 60%);
-    border: 1px solid;
-    font-size: 4vw;
-    opacity: 0.8;
-    padding: 10px 25px 10px 25px;
+  position: absolute;
+  margin-left: 40px;
+  top: 15vw;
+  background-color: #f0b4ff;
+  width: 22vw;
+  box-shadow: 5px 5px 20px rgb(0 0 0 / 60%);
+  border: 1px solid;
+  font-size: 4vw;
+  opacity: 0.8;
+  padding: 10px 25px 10px 25px;
 }
 
 .project-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #E9E5F5;
-    margin: 20px 0;
-    box-shadow: 5px 5px 20px rgb(0 0 0 / 60%);
-    padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #313639;
+  margin: 20px 0;
+  box-shadow: 5px 5px 20px rgb(0 0 0 / 60%);
+  padding: 40px;
 }
 
-.portfolio-content, .wilson-content, .bizfitz-content {
-    padding: 20px 0;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    max-width: 500px;
-    text-align: center;
-    
+.portfolio-content,
+.wilson-content,
+.bizfitz-content {
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  max-width: 500px;
+  text-align: center;
 }
 
-#bloom-box-pic, #bizfitz-logo {
-    max-width: 80vw;
-    padding: 20px;
+#bloom-box-pic,
+#bizfitz-logo {
+  max-width: 80vw;
+  padding: 20px;
 }

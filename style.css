@@ -6,7 +6,7 @@
  */
 
 body {
-  background-color: #b4f6ff;
+  background-color: white;
   font-family: "Trebuchet MS", sans-serif;
   margin: 0px;
   overflow-x: hidden;
@@ -19,6 +19,7 @@ body {
   z-index: 1000;
   width: 100%;
   box-shadow: 10px 5px 20px rgb(0 0 0 / 70%);
+  color: #313639;
 }
 
 .main-nav {
@@ -30,7 +31,7 @@ body {
   word-spacing: 15px;
   z-index: 1000;
   font-weight: bold;
-  color: black;
+  color: #313639;
 }
 
 .nav-burger {
@@ -48,6 +49,7 @@ body {
   word-spacing: 15px;
   font-weight: bold;
   padding: 20px;
+  color: #313639;
 }
 
 /* if the device has a screen with a width of 750px or less, will hide the nav */
@@ -129,14 +131,14 @@ a {
   padding-right: 20px;
   border: 1px solid;
   font-size: 2.5vw;
-  opacity: 0.6;
+  opacity: 0.8;
   box-shadow: 10px 5px 20px rgb(0 0 0 / 100%);
 }
 
 .about-me-section {
   margin-top: 20px;
   width: 100%;
-  background-color: #e9e5f5;
+  background-color: #313639;
   font-family: "Trebuchet MS", sans-serif;
   padding-bottom: 50px;
   padding-top: 50px;
@@ -162,6 +164,7 @@ a {
   max-width: 600px;
   overflow: hidden;
   font-size: 20px;
+  color: white;
 }
 
 @media only screen and (max-width: 750px) {
