@@ -21,8 +21,7 @@
 }
 
 #portfolio-title,
-#bloom-title,
-#bizfitz-title {
+#cobra-title {
   max-width: 250px;
   border-bottom-style: solid;
   border-bottom-width: 1px;
@@ -41,8 +40,7 @@
 }
 
 .portfolio-content,
-.wilson-content,
-.bizfitz-content {
+.cobra-content {
   padding: 20px 0;
   display: flex;
   flex-direction: column;
@@ -52,8 +50,3 @@
   align-items: center;
 }
 
-#bloom-box-pic,
-#bizfitz-logo {
-  max-width: 80vw;
-  padding: 20px;
-}
