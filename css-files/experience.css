@@ -27,9 +27,11 @@
 }
 
 #cse-title,
+#SRA-title,
 #csp-title,
 #launch-code-title,
-#caps-title {
+#caps-title,
+#farottos-title {
   font-size: 30px;
 
   border-bottom-style: solid;
@@ -39,9 +41,11 @@
 }
 
 .cse-content,
+.SRA-content,
 .csp-content,
 .launch-code-content,
-.stlcaps-content {
+.stlcaps-content,
+.farottos-content {
   display: flex;
   flex-direction: column;
   max-width: 500px;

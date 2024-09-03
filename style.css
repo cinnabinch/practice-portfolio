@@ -143,6 +143,14 @@ a {
   box-shadow: 10px 5px 20px rgb(0 0 0 / 50%);
 }
 
+.linkedin-aboutme-section {
+  width: 100%;
+  background-color: #313639;
+  font-family: "Trebuchet MS", sans-serif;
+  padding-bottom: 25px;
+  padding-top: 25px;
+}
+
 .about-me-span {
   display: flex;
   flex-direction: row;
@@ -150,7 +158,15 @@ a {
   flex-wrap: wrap;
 }
 
-.about-me-text {
+.linkedin-span {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  flex-wrap: wrap;
+  padding-left: 200px;
+}
+
+.about-me-text, .linkedin-aboutme-div {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -174,7 +190,7 @@ a {
   }
 }
 
-#about-me-title {
+#about-me-title, #linkedin-aboutme-title {
   padding: 20px;
   background-color: #f0b4ff;
   width: 550px;
@@ -229,4 +245,32 @@ a {
 }
 #copyright {
   font-size: 20px;
+}
+
+
+#linked-user {
+  font-size: 20px;
+  margin-left: 20px;
+  color: white;
+}
+
+.linkedin-contact {
+  padding: 20px;
+  font-size: 30px;
+  transition: 0.3s;
+  display: flex;
+  flex-direction: row;
+}
+
+.linkedin-contact:hover{
+  background-color: #f0b4ff;
+  transition: 0.1s;
+  border-radius: 10px;
+  box-shadow: 5px 5px 20px rgb(0 0 0 / 60%);
+  font-size: 32px;
+}
+
+.linked-icon{
+  font-size: 60px;
+  color: white;
 }
