@@ -161,9 +161,8 @@ a {
 .linkedin-span {
   display: flex;
   flex-direction: row;
-  justify-content: left;
+  justify-content: center;
   flex-wrap: wrap;
-  padding-left: 200px;
 }
 
 .about-me-text, .linkedin-aboutme-div {
@@ -272,5 +271,7 @@ a {
 
 .linked-icon{
   font-size: 60px;
+  max-width: 600px;
+  overflow: hidden;
   color: white;
 }
